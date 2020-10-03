@@ -1,0 +1,398 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  color: #f0f0f0;
+  font-family: georgia;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  cursor: progress;
+  float: none;
+  font-size: 20px;
+  overflow-x: hidden;
+  background:url('/img-macos4.png');
+  line-height: 25px;
+}
+
+h1 {
+  color: #f0f0f0;
+  font-family: georgia;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  font-size: 24px;
+}
+
+h3 {
+  color: #f0f0f0;
+  font-family: georgia;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  font-size: 20px;
+}
+
+big {
+  color: #f0f0f0;
+  font-family: georgia;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  cursor: progress;
+  float: none;
+  font-size: 20px;
+}
+
+small {
+  font-size: 14px;
+}
+
+transparent {
+  color: rgba(0, 0, 0, 0.0);
+  font-family: georgia;
+  text-shadow: rgba(0, 0, 0, 0.0) 2px 2px 2px;
+}
+
+button {
+  max-width: 100px;
+  margin: 10px 0 0 0;
+  cursor: progress;
+}
+
+/* The side navigation menu */
+.sidenav {
+  position: fixed;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #fff; /* White*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: auto;
+  padding-top: 0; /* Place content 0px from the top */
+  transition: 1s; /* 1 second transition effect to slide in the sidenav */
+  cursor: progress;
+}
+
+/* The navigation menu text */
+.sidenav p {
+  padding: 8px 8px 0 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #f0f0f0;
+  display: block;
+  transition: 0.3s;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  cursor: progress;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  max-width: 100px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  cursor: progress;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  cursor: progress;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding-top: 8px;
+  cursor: progress;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#onclick1 {
+  font-size: 17px;
+  color: #7CA6C0!important;
+  text-shadow: none;
+  cursor: progress;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media (max-width: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  #main {max-width: 315px; overflow-y:scroll; overflow-x:hidden; margin: auto; align-content: center; font-size: 18px;}
+  #Progress_Status {max-width: 270px; margin: 0 auto;}
+  button {max-width: 270px; margin: inherit auto 0 auto;}
+
+/* Progress Bar BEGIN */
+#Progress_Status { 
+  width: 400px;
+  background-color: #dddddd;
+  border-radius: 2px;
+  align-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #222;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 4px;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 12px;
+} 
+
+#myprogressBar { 
+  width: 1%; 
+  height: 33px; 
+  background-color: #4CAF50; 
+  text-align: center; 
+  vertical-align: super;
+  line-height: 33px; 
+  color: white; 
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  border-radius: 1px 0 0 1px;
+  align-content: center;
+} 
+/* Progress Bar END */
+
+/* Ellipses BEGIN */
+.one {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -moz-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.0s;
+    -moz-animation-delay: 0.0s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.0s;
+}
+
+.two {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -moz-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.2s;
+}
+
+.three {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -moz-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.3s;
+}
+
+@-webkit-keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Ellipses END */
+
+/* Link Hover (Image) BEGIN */
+
+a:hover {
+    position: relative;
+    cursor: progress;
+}
+a:hover:after {
+    display: block;
+    position: absolute;
+    cursor: progress;
+}
+
+.hover-title {
+    display: inline;
+    cursor: progress;
+}
+
+.hover-image {
+    visibility: hidden;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+    visibility: visible;
+}
+
+.hover-image {
+    position: fixed;
+    top: 32%; /* check this value once the main page is complete (in case things have shifted vertically) */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-image img {
+    width: 150px;
+    height: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 4px;
+}
+
+/* Link Hover (Image) END */
+
+
+/* PLUNKER END */
+
+.body {
+  height: 100vh;
+  display: none;
+  font-family: georgia;
+  background: none;
+}
+
+.wrap {
+  margin: auto;
+}
+
+.modal {
+  background-color: #fff;
+  text-align: center;
+  border-radius: .5em;
+  display: none;
+}
+
+.modal-header {
+  background: url("https://imgur.com/hSzkaQq.png");
+  margin: 0 auto;
+  display: none;
+  margin-bottom: 2em;
+  border-radius: 2px 2px 0 0;
+}
+
+.h21 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
+.p {
+  margin-bottom: 2em;
+  color: #666;
+  padding: 1em;
+}
+
+.btn-open {
+  display: none;
+}
+
+.button {
+  height: 94px;
+  width: 120px;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  transition: background .4s ease, color .4s ease;
+}
+
+/* POPUP START */
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: progress;
+}
+
+/* The actual popup (appears on top) */
+.popuptext {
+  visibility: hidden;
+  width: 250px;
+  font-size: 13px;
+  background-color: rgba(255,255,255, 1) ;
+  color: #222;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: -59%;
+  line-height: 20px;
+  border-width: 1px;
+  border-color: #222;
+  border-style: solid;
+  text-shadow: rgba(0, 0, 0, 0.35) 2px 2px 2px;
+}
+
+/* Popup arrow */
+.popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #222 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+}
+
+.popupheader {
+  font-size: 16px;
+  background: url('img-checkerblue.png');
+  width: 260px;
+  padding: 0;
+  line-height: 27px;
+  margin: -5px -5px 4px -5px;
+  border-radius: 2px 2px 0 0;
+  color: #fff;
+}
+
+.popupcontent {
+  width: 240px;
+  margin: auto;
+  text-align: justify;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/* POPUP END */
