@@ -22,12 +22,12 @@
   <center><p><big>WARNING: BLINKIES/EYESTRAIN!</big><br>
   welcome to the secret garden! fairies reside here.<br>
   wanderers <u>turn back now</u>.<br><br>
-  <img style="" alt="??" width="141" height="44" src="/amren4.gif"><br>
-  <img style="" alt="??" width="200" height="231" src="/img-tink2.jpg"><br>
-  <img style="" alt="??" width="200" height="27" src="/blinkie-1.gif"><br>
-  <img style="" alt="??" width="100" height="100" src="/arrow-2.png">
+  <img style="" alt="??" width="141" height="44" src="https://imgur.com/Cd8l0nK.gif"><br>
+  <img style="" alt="??" width="200" height="231" src="https://imgur.com/orbaRS8.jpg"><br>
+  <img style="" alt="??" width="200" height="27" src="https://imgur.com/m7HRQZt.gif"><br>
+  <img style="" alt="??" width="100" height="100" src="https://imgur.com/PEZH3AL.png">
 
-<div class="popup" onclick="myFunction()"><img style="" alt="??" width="120" height="90" src="/clickme-1.png">
+<div class="popup" onclick="myFunction()"><img style="" alt="??" width="120" height="90" src="https://imgur.com/jzDtSCs.png">
   <span class="popuptext" id="myPopup"><div class="popupheader">welcome:</div><div class="popupcontent">to my <s>secret</s> neocities page! enjoy my first html project. please contact me with any and all feedback, and to report any issues.</div></span>
 </div>
 
@@ -83,13 +83,13 @@ function update() {
 <br>
     <p><center><b>WARNING</b>! Pages include
     <div class="hover-title"><u>flashing images</u></div>
-    <div class="hover-image"><img style="" alt="??" width="150" height="20" src="/blinkie-1.gif"></div>
+    <div class="hover-image"><img style="" alt="??" width="150" height="20" src="https://imgur.com/m7HRQZt.gif"></div>
  <i>&</i>
     <div class="hover-title"><u>eyestrain</u></div>
-    <div class="hover-image"><img style="" alt="??" width="150" height="20" src="img-checkergreen2.png"></div> 
+    <div class="hover-image"><img style="" alt="??" width="150" height="20" src="https://imgur.com/4pHKQol.png"></div> 
 content.<br>
 Photosensitive users be advised.</center>
-    hehe thats me ~> <img style="" alt="??" width="150" height="150" src="/img-tink.JPG"><br>
+    hehe thats me ~> <img style="" alt="??" width="150" height="150" src="https://imgur.com/myI5fst.jpg"><br>
     this is going to take quite some time.
     
 </div>
